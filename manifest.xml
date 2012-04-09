@@ -1,0 +1,16 @@
+<package>
+  <description brief="mean620">
+
+     mean620
+
+  </description>
+  <author>Menglong Zhu</author>
+  <license>BSD</license>
+  <review status="unreviewed" notes=""/>
+  <url>http://ros.org/wiki/mean620</url>
+
+  <depend package="roscpp"/>
+
+</package>
+
+

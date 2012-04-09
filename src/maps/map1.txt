@@ -1,0 +1,27 @@
+boundary 0.0 50.0 50.0 00.0
+start 1.81 20.27
+end 48.47 33.87
+obstacle1 9.99 10.62 3.75
+obstacle2 9.99 21.44 5.00
+obstacle3 10.34 32.99 5.00
+obstacle4 22.09 27.29 5.00
+obstacle5 18.52 14.86 5.00
+obstacle6 32.00 19.10 5.00
+obstacle7 25.31 8.29 5.00
+obstacle8 31.42 29.63 5.00
+obstacle9 19.78 40.45 5.00
+obstacle10 33.38 42.64 5.00
+obstacle11 45.13 27.44 5.00
+obstacle12 42.36 8.58 5.00
+obstacle13 5.84 43.52 5.00
+obstacle14 46.05 40.45 5.00
+obstacle15 5.50 27.73 1.50
+obstacle16 13.79 47.61 1.50
+obstacle17 25.54 46.44 1.50
+obstacle18 26.47 36.21 1.50
+obstacle19 24.28 19.69 1.50
+obstacle20 37.41 35.92 1.50
+obstacle21 44.09 17.79 1.50
+obstacle22 33.95 1.12 1.50
+obstacle23 3.65 3.90 1.50
+obstacle24 15.87 1.41 1.50
