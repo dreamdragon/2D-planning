@@ -10,8 +10,5 @@ video of quadtree decomposition:
 http://www.youtube.com/watch?v=jqjlsIAQDT0
 
 HOW TO RUN:
-option 1: In matlab, planner('<map path>');  
-          Recommended, it is a wrapper for the C++ executable, 
-          it will generate an image.
-option 2: in terminal: ./run_planner <map path> 
-          which generate intermidiate text file for output.
+./run_planner <map path> 
+which generate intermidiate text file for output.
