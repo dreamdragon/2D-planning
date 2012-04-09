@@ -1,0 +1,17 @@
+Author:
+Menglong Zhu, menglong AT cis upenn edu
+
+DESCRIPTION:
+Path planning package. Two approach is implemented in this package
+1. uniform grid over map
+2. quadtree decomposition over the map
+
+video of quadtree decomposition:
+http://www.youtube.com/watch?v=jqjlsIAQDT0
+
+HOW TO RUN:
+option 1: In matlab, planner('<map path>');  
+          Recommended, it is a wrapper for the C++ executable, 
+          it will generate an image.
+option 2: in terminal: ./run_planner <map path> 
+          which generate intermidiate text file for output.
