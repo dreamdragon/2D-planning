@@ -14,8 +14,8 @@ using namespace std;
 void testParse(Environment& env);
 void writeMapToFile(int **matrix, int matrixSize);
 void QuadTreeToLines(visualization_msgs::Marker &line_strip,
-										 vector<visualization_msgs::Marker>  &line_list_list,
-										 QuadTreeNode *node, int totalDepth);
+        vector<visualization_msgs::Marker>  &line_list_list,
+        QuadTreeNode *node, int totalDepth);
 
 int main(int argc, char** argv){
 
@@ -191,8 +191,8 @@ void testParse(Environment& env)
 }
 
 void QuadTreeToLines(visualization_msgs::Marker &line_strip,
-										 vector<visualization_msgs::Marker>  &line_list_list,
-										 QuadTreeNode *node, int totalDepth)
+        vector<visualization_msgs::Marker>  &line_list_list,
+        QuadTreeNode *node, int totalDepth)
 {
 	geometry_msgs::Point *p = new geometry_msgs::Point();
 	float scale = 8;
