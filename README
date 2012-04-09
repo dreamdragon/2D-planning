@@ -12,3 +12,6 @@ http://www.youtube.com/watch?v=jqjlsIAQDT0
 HOW TO RUN:
 ./run_planner <map path> 
 which generate intermidiate text file for output.
+
+NOTE:
+This implementaion assume obstacles are all circles
