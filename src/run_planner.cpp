@@ -100,9 +100,6 @@ int main(int argc, char** argv){
         // LINE_STRIP/LINE_LIST markers use only the x component of scale, for the line width
         line_strip.scale.x = 0.1;
 
-
-
-
         // Line strip is green
         line_strip.color.g = 1.0;
         line_strip.color.a = 1.0;
