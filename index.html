@@ -42,19 +42,19 @@
 <p>Path planning package. Two approaches are implemented in this package</p>
 
 <ol>
-<li>uniform grid over map</li>
 <li>
 <strong>quadtree</strong> decomposition over the map</li>
+<li>uniform grid over map</li>
 </ol><p>Planning algorithm is A* search</p>
 
 <h2>
-<a name="video-of-quadtree-decomposition" class="anchor" href="#video-of-quadtree-decomposition"><span class="octicon octicon-link"></span></a>video of quadtree decomposition:</h2>
+<a name="video-demo-of-quadtree-decomposition" class="anchor" href="#video-demo-of-quadtree-decomposition"><span class="octicon octicon-link"></span></a>Video demo of quadtree decomposition:</h2>
 
 <p><a href="http://www.youtube.com/watch?v=jqjlsIAQDT0">http://www.youtube.com/watch?v=jqjlsIAQDT0</a>
 visualization in ROS in rviz</p>
 
 <h2>
-<a name="compilation" class="anchor" href="#compilation"><span class="octicon octicon-link"></span></a>COMPILATION:</h2>
+<a name="compilation" class="anchor" href="#compilation"><span class="octicon octicon-link"></span></a>Compilation:</h2>
 
 <p>Cmake file is provided.
 $ cmake .
@@ -63,13 +63,13 @@ $ make</p>
 <p>Only the visualization part depends on ROS rviz package. Other part of the code are stand alone. If you don't have ROS installed, simply comment out the visualization part of the code in run_planner.cpp.</p>
 
 <h2>
-<a name="how-to-run" class="anchor" href="#how-to-run"><span class="octicon octicon-link"></span></a>HOW TO RUN:</h2>
+<a name="how-to-run" class="anchor" href="#how-to-run"><span class="octicon octicon-link"></span></a>How to run:</h2>
 
 <p>./run_planner  
 which generate intermidiate text file for output.</p>
 
 <h2>
-<a name="note" class="anchor" href="#note"><span class="octicon octicon-link"></span></a>NOTE:</h2>
+<a name="note" class="anchor" href="#note"><span class="octicon octicon-link"></span></a>Note:</h2>
 
 <p>This implementaion assume obstacles are all circles</p>
 
