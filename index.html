@@ -1,0 +1,100 @@
+<!doctype html>
+<!-- The Time Machine GitHub pages theme was designed and developed by Jon Rohan, on Feb 7, 2012. -->
+<!-- Follow him for fun. http://twitter.com/jonrohan. Tail his code on http://github.com/jonrohan -->
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+
+  <link rel="stylesheet" href="stylesheets/stylesheet.css" media="screen"/>
+  <link rel="stylesheet" href="stylesheets/pygment_trac.css"/>
+  <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+  <script type="text/javascript" src="javascripts/script.js"></script>
+
+  <title>2d-planning</title>
+  <meta name="description" content="A* search on 2D map, grid &amp; quadtree">
+
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+
+</head>
+
+<body>
+
+  <div class="wrapper">
+    <header>
+      <h1 class="title">2d-planning</h1>
+    </header>
+    <div id="container">
+      <p class="tagline">A* search on 2D map, grid &amp; quadtree</p>
+      <div id="main" role="main">
+        <div class="download-bar">
+        <div class="inner">
+          <a href="https://github.com/dreamdragon/2D-planning/tarball/master" class="download-button tar"><span>Download</span></a>
+          <a href="https://github.com/dreamdragon/2D-planning/zipball/master" class="download-button zip"><span>Download</span></a>
+          <a href="https://github.com/dreamdragon/2D-planning" class="code">View 2d-planning on GitHub</a>
+        </div>
+        <span class="blc"></span><span class="trc"></span>
+        </div>
+        <article class="markdown-body">
+          <h1>
+<a name="description" class="anchor" href="#description"><span class="octicon octicon-link"></span></a>DESCRIPTION:</h1>
+
+<p>Path planning package. Two approaches are implemented in this package
+1. uniform grid over map
+2. quadtree decomposition over the map
+Planning algorithm is A* search</p>
+
+<h1>
+<a name="video-of-quadtree-decomposition" class="anchor" href="#video-of-quadtree-decomposition"><span class="octicon octicon-link"></span></a>video of quadtree decomposition:</h1>
+
+<p><a href="http://www.youtube.com/watch?v=jqjlsIAQDT0">http://www.youtube.com/watch?v=jqjlsIAQDT0</a></p>
+
+<p>visualization use ROS markers in rviz</p>
+
+<h1>
+<a name="compilation" class="anchor" href="#compilation"><span class="octicon octicon-link"></span></a>COMPILATION:</h1>
+
+<p>Cmake file is provided.
+$ cmake .
+$ make</p>
+
+<p>Only the visualization part depends on ROS rviz package. Other part of the code are stand alone. If you don't have ROS installed, simply comment out the visualization part of the code in run_planner.cpp.</p>
+
+<h1>
+<a name="how-to-run" class="anchor" href="#how-to-run"><span class="octicon octicon-link"></span></a>HOW TO RUN:</h1>
+
+<p>./run_planner  
+which generate intermidiate text file for output.</p>
+
+<h1>
+<a name="note" class="anchor" href="#note"><span class="octicon octicon-link"></span></a>NOTE:</h1>
+
+<p>This implementaion assume obstacles are all circles</p>
+
+<h1>
+<a name="author" class="anchor" href="#author"><span class="octicon octicon-link"></span></a>Author:</h1>
+
+<p>Menglong Zhu, menglong AT cis upenn edu</p>
+        </article>
+      </div>
+    </div>
+    <footer>
+      <div class="owner">
+      <p><a href="https://github.com/dreamdragon" class="avatar"><img src="https://1.gravatar.com/avatar/f0c2c542ca0c564f4475697f9bfcaede?d=https%3A%2F%2Fidenticons.github.com%2F353ae3a4b432960e1081669c0125169b.png&amp;r=x&amp;s=60" width="48" height="48"/></a> <a href="https://github.com/dreamdragon">dreamdragon</a> maintains <a href="https://github.com/dreamdragon/2D-planning">2d-planning</a></p>
+
+
+      </div>
+      <div class="creds">
+        <small>This page generated using <a href="http://pages.github.com/">GitHub Pages</a><br/>theme by <a href="https://twitter.com/jonrohan/">Jon Rohan</a></small>
+      </div>
+    </footer>
+  </div>
+  <div class="current-section">
+    <a href="#top">Scroll to top</a>
+    <a href="https://github.com/dreamdragon/2D-planning/tarball/master" class="tar">tar</a><a href="https://github.com/dreamdragon/2D-planning/zipball/master" class="zip">zip</a><a href="" class="code">source code</a>
+    <p class="name"></p>
+  </div>
+
+  
+</body>
+</html>
