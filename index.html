@@ -11,8 +11,8 @@
   <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
   <script type="text/javascript" src="javascripts/script.js"></script>
 
-  <title>2d-planning</title>
-  <meta name="description" content="A* search on 2D map, grid &amp; quadtree">
+  <title>2D-planning</title>
+  <meta name="description" content="A* search on 2D map, quadtree &amp; grid">
 
   <meta name="viewport" content="width=device-width,initial-scale=1">
 
@@ -22,16 +22,16 @@
 
   <div class="wrapper">
     <header>
-      <h1 class="title">2d-planning</h1>
+      <h1 class="title">2D-planning</h1>
     </header>
     <div id="container">
-      <p class="tagline">A* search on 2D map, grid &amp; quadtree</p>
+      <p class="tagline">A* search on 2D map, quadtree &amp; grid</p>
       <div id="main" role="main">
         <div class="download-bar">
         <div class="inner">
           <a href="https://github.com/dreamdragon/2D-planning/tarball/master" class="download-button tar"><span>Download</span></a>
           <a href="https://github.com/dreamdragon/2D-planning/zipball/master" class="download-button zip"><span>Download</span></a>
-          <a href="https://github.com/dreamdragon/2D-planning" class="code">View 2d-planning on GitHub</a>
+          <a href="https://github.com/dreamdragon/2D-planning" class="code">View 2D-planning on GitHub</a>
         </div>
         <span class="blc"></span><span class="trc"></span>
         </div>
@@ -39,20 +39,22 @@
           <h1>
 <a name="description" class="anchor" href="#description"><span class="octicon octicon-link"></span></a>DESCRIPTION:</h1>
 
-<p>Path planning package. Two approaches are implemented in this package
-1. uniform grid over map
-2. quadtree decomposition over the map
-Planning algorithm is A* search</p>
+<p>Path planning package. Two approaches are implemented in this package</p>
 
-<h1>
-<a name="video-of-quadtree-decomposition" class="anchor" href="#video-of-quadtree-decomposition"><span class="octicon octicon-link"></span></a>video of quadtree decomposition:</h1>
+<ol>
+<li>uniform grid over map</li>
+<li>
+<strong>quadtree</strong> decomposition over the map</li>
+</ol><p>Planning algorithm is A* search</p>
 
-<p><a href="http://www.youtube.com/watch?v=jqjlsIAQDT0">http://www.youtube.com/watch?v=jqjlsIAQDT0</a></p>
+<h2>
+<a name="video-of-quadtree-decomposition" class="anchor" href="#video-of-quadtree-decomposition"><span class="octicon octicon-link"></span></a>video of quadtree decomposition:</h2>
 
-<p>visualization use ROS markers in rviz</p>
+<p><a href="http://www.youtube.com/watch?v=jqjlsIAQDT0">http://www.youtube.com/watch?v=jqjlsIAQDT0</a>
+visualization in ROS in rviz</p>
 
-<h1>
-<a name="compilation" class="anchor" href="#compilation"><span class="octicon octicon-link"></span></a>COMPILATION:</h1>
+<h2>
+<a name="compilation" class="anchor" href="#compilation"><span class="octicon octicon-link"></span></a>COMPILATION:</h2>
 
 <p>Cmake file is provided.
 $ cmake .
@@ -60,19 +62,19 @@ $ make</p>
 
 <p>Only the visualization part depends on ROS rviz package. Other part of the code are stand alone. If you don't have ROS installed, simply comment out the visualization part of the code in run_planner.cpp.</p>
 
-<h1>
-<a name="how-to-run" class="anchor" href="#how-to-run"><span class="octicon octicon-link"></span></a>HOW TO RUN:</h1>
+<h2>
+<a name="how-to-run" class="anchor" href="#how-to-run"><span class="octicon octicon-link"></span></a>HOW TO RUN:</h2>
 
 <p>./run_planner  
 which generate intermidiate text file for output.</p>
 
-<h1>
-<a name="note" class="anchor" href="#note"><span class="octicon octicon-link"></span></a>NOTE:</h1>
+<h2>
+<a name="note" class="anchor" href="#note"><span class="octicon octicon-link"></span></a>NOTE:</h2>
 
 <p>This implementaion assume obstacles are all circles</p>
 
-<h1>
-<a name="author" class="anchor" href="#author"><span class="octicon octicon-link"></span></a>Author:</h1>
+<h2>
+<a name="contact" class="anchor" href="#contact"><span class="octicon octicon-link"></span></a>Contact:</h2>
 
 <p>Menglong Zhu, menglong AT cis upenn edu</p>
         </article>
@@ -80,7 +82,7 @@ which generate intermidiate text file for output.</p>
     </div>
     <footer>
       <div class="owner">
-      <p><a href="https://github.com/dreamdragon" class="avatar"><img src="https://1.gravatar.com/avatar/f0c2c542ca0c564f4475697f9bfcaede?d=https%3A%2F%2Fidenticons.github.com%2F353ae3a4b432960e1081669c0125169b.png&amp;r=x&amp;s=60" width="48" height="48"/></a> <a href="https://github.com/dreamdragon">dreamdragon</a> maintains <a href="https://github.com/dreamdragon/2D-planning">2d-planning</a></p>
+      <p><a href="https://github.com/dreamdragon" class="avatar"><img src="https://1.gravatar.com/avatar/f0c2c542ca0c564f4475697f9bfcaede?d=https%3A%2F%2Fidenticons.github.com%2F353ae3a4b432960e1081669c0125169b.png&amp;r=x&amp;s=60" width="48" height="48"/></a> <a href="https://github.com/dreamdragon">dreamdragon</a> maintains <a href="https://github.com/dreamdragon/2D-planning">2D-planning</a></p>
 
 
       </div>
